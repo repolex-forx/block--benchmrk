@@ -1,0 +1,16 @@
+[2026-10-01T06:53:51Z] === ENRICH ITERATION 1 START | repo=block/benchmrk sha=0979862d ===
+[2026-10-01T06:53:51Z] [iter=1] PHASE START: enrich repo=block/benchmrk sha=0979862d runlog=/home/runner/work/forx/forx/storage/aggregate/lsp/logs/0979862d-enrich-iter-001.log output=/home/runner/work/forx/forx/storage/aggregate/lsp/0979862d4281eb9954be51d12a4ccd0cb965bc2e.nq.gz
+[2026-10-01T06:53:58Z] [iter=1] Step 1: Loading AST into disk-backed store mem_mb=80 MB
+[2026-10-01T06:54:13Z] [iter=1] AST store loaded triples=1382228 load_secs=14 mem_mb=890 MB
+[2026-10-01T06:54:13Z] [iter=1] Step 2: Finding LSP targets mem_mb=890 MB
+[2026-10-01T06:54:14Z] [iter=1] LSP targets found call_sites=8531 imports=0 extends=0 implements=0 secs=1
+[2026-10-01T06:54:14Z] [iter=1] Step 2.7: Building position index (one-shot, shared across resolvers) mem_mb=890 MB
+[2026-10-01T06:54:19Z] [iter=1] Position index built positions=87317 nodes_with_types=102327 secs=5 mem_mb=890 MB
+[2026-10-01T06:54:19Z] [iter=1] Step 3: Starting LSP resolution mem_mb=890 MB already_completed_types=[] already_completed_files=0
+[2026-10-01T06:54:19Z] [iter=1] Resolving target type target_type=call_site count=8531
+[2026-10-01T06:54:27Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=0.6 files_done=0 resolved=0 errors=8531 current=examples/quick-run.sh
+[2026-10-01T06:55:03Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=1.2 files_done=1 resolved=0 errors=8607 current=examples/wrappers/bandit.sh
+[2026-10-01T06:55:04Z] [iter=1] Target type resolved target_type=call_site resolved=0 errors=8609 secs=45 mem_mb=890 MB
+[2026-10-01T06:55:05Z] [iter=1] Step 5: Writing final enrichment file triples=637
+[2026-10-01T06:55:05Z] [iter=1] Enrichment file written path=/home/runner/work/forx/forx/storage/aggregate/lsp/0979862d4281eb9954be51d12a4ccd0cb965bc2e.nq.gz size_kb=7
+[2026-10-01T06:55:05Z] [iter=1] PHASE END: enrich elapsed_s=75 elapsed_min=1.2 total_triples=637

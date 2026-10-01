@@ -8,7 +8,7 @@
     {
       "@id": "https://repolex.ai/r/block/benchmrk/commit/0979862d4281eb9954be51d12a4ccd0cb965bc2e",
       "git:hexsha": "0979862d4281eb9954be51d12a4ccd0cb965bc2e",
-      "repolex:parseStatus": "ast_complete",
+      "repolex:parseStatus": "enrich_complete",
       "git:tagName": "main"
     }
   ]
